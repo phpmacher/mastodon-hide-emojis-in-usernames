@@ -2,7 +2,9 @@
 
 ## Description
 
-A Tampermonkey script that hides all emojis within usernames in the Mastodon WebUI. The purpose is to create a distraction-free and cleaner user interface by removing colorful emoji images without affecting the readability of usernames themselves.
+A Tampermonkey script that hides all emojis within usernames in the Mastodon WebUI. The purpose is to create a
+distraction-free and cleaner user interface by removing colorful emoji images without affecting the readability of
+usernames themselves.
 
 ## Features
 
@@ -13,19 +15,23 @@ A Tampermonkey script that hides all emojis within usernames in the Mastodon Web
 
 ## Rationale
 
-This script aims to improve focus and readability by removing potentially distracting visuals from the UI. By reducing the number of visual elements, users can maintain a more streamlined experience on Mastodon. This can also improve accessibility for users who prefer minimalistic interfaces or find colorful elements in usernames distracting.
+This script aims to improve focus and readability by removing potentially distracting visuals from the UI. By reducing
+the number of visual elements, users can maintain a more streamlined experience on Mastodon. This can also improve
+accessibility for users who prefer minimalistic interfaces or find colorful elements in usernames distracting.
 
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) in your browser if you haven’t already.
-2. Create a new script and copy-paste the code from the `mastodon-hide-emojis-in-usernames.user.js` file in this repository.
+2. Create a new script and copy-paste the code from the `mastodon-hide-emojis-in-usernames.user.js` file in this
+   repository.
 3. Save and enable the script.
 4. Update the `@match` directive to point to your Mastodon server.
 5. Visit Mastodon, and usernames will now display without emojis.
 
 ## Usage
 
-Once installed, the script automatically removes all emojis from usernames on Mastodon pages, both for static and dynamically loaded content.
+Once installed, the script automatically removes all emojis from usernames on Mastodon pages, both for static and
+dynamically loaded content.
 
 ## Compatibility
 
@@ -34,13 +40,18 @@ Once installed, the script automatically removes all emojis from usernames on Ma
 
 ## Screenshot
 
-![Screenshot of emoji-free usernames in Mastodon UI](./images/mastodon-no-emojis-screenshot.png)
+before:
 
-*(Add a screenshot that shows the UI without emojis in usernames)*
+![Screenshot of usernames with emojis in Mastodon UI](./assets/mastodon-user-with-emojis.png)
+
+after:
+
+![Screenshot of emoji-free usernames in Mastodon UI](./assets/mastodon-user-without-emojis.png)
 
 ## Planned Extensions
 
-Suggestions for extending this script are welcome! Ideas such as hiding other graphic or non-text UI elements are possible to make the interface even more distraction-free.
+Suggestions for extending this script are welcome! Ideas such as hiding other graphic or non-text UI elements are
+possible to make the interface even more distraction-free.
 
 ## License
 
